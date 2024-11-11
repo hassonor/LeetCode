@@ -1,7 +1,7 @@
 from typing import List
 
 
-def longest_common_prefix(self, strs: List[str]) -> str:
+def longest_common_prefix(strs: List[str]) -> str:
     if not strs:
         return ""
 

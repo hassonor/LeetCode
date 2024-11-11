@@ -1,7 +1,7 @@
 from typing import List
 
 
-def remove_element(self, nums: List[int], val: int) -> int:
+def remove_element(nums: List[int], val: int) -> int:
     if not nums:
         return 0
 

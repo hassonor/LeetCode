@@ -1,4 +1,4 @@
-def is_valid(self, s: str) -> bool:
+def is_valid(s: str) -> bool:
     pars = {"}": "{", "]": "[", ")": "("}
     arr = []
 

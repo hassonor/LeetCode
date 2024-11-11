@@ -1,7 +1,7 @@
 from typing import List
 
 
-def remove_duplicates(self, nums: List[int]) -> int:
+def remove_duplicates(nums: List[int]) -> int:
     if not nums:
         return 0
 

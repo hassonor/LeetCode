@@ -1,7 +1,7 @@
 from typing import List
 
 
-def two_sum(self, nums: List[int], target: int) -> List[int]:
+def two_sum(nums: List[int], target: int) -> List[int]:
     comps = {}
 
     for ind, val in enumerate(nums):
