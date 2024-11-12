@@ -14,5 +14,7 @@ def has_cycle(head: Optional[ListNode]) -> bool:
     while fast_head is not None and fast_head.next is not None:
         slow_head = slow_head.next
         fast_head = fast_head.next.next
+        if slow_head == fast_head:
+            return True
 
-    return slow_head == fast_head
+    return False
