@@ -1,0 +1,12 @@
+[MASTER]
+max-line-length = 79
+
+[MESSAGES CONTROL]
+disable = C0114,  # Missing module docstring
+         C0115,  # Missing class docstring
+         C0116,  # Missing function or method docstring
+         W0201   # Attribute defined outside __init__
+
+[REPORTS]
+extension-pkg-whitelist = numpy, pandas
+load-plugins =  pylint_flask
